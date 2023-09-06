@@ -1,3 +1,7 @@
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -19,13 +23,15 @@ body {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 10px;
+  border-radius: 1rem;
   max-width: 300px;
 
   text-align: center;
 
   display: flex;
   flex-direction: column;
+
+  padding: 1rem;
 }
 
 .card>* {
@@ -33,7 +39,19 @@ body {
 }
 
 .card__image {
-  border-radius: 10px;
+  border-radius: calc(1rem - 5px);
+}
+
+.card__headline {
+  font-weight: 700;
+}
+
+.card__desc {
+  font-weight: 400;
+}
+
+.card__headline, .card__desc {
+  margin: 1rem
 }
 
 .attribution {
