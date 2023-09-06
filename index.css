@@ -45,6 +45,8 @@ body {
 
 .card__image {
   border-radius: calc(1rem - 5px);
+  width: 100%;
+  object-fit: contain;
 }
 
 .card__headline {
