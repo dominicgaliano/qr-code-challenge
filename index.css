@@ -1,3 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #d7e1ee;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  max-width: 300px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card>* {
+  display: block;
+}
+
+.card__image {
+  border-radius: 10px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,4 +43,8 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+footer {
+  margin-top: auto;
 }
