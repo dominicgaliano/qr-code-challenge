@@ -53,15 +53,19 @@ body {
   font-weight: 700;
   font-size: 2rem;
   color: hsl(218, 44%, 22%);
+
+  margin-top: 1rem;
 }
 
 .card__desc {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+
+  margin: 1rem 0;
 }
 
 .card__headline, .card__desc {
-  margin: 1rem
+  margin: 1rem 1rem;
 }
 
 .attribution {
